@@ -1,0 +1,609 @@
+$font: 'Work Sans', sans-serif;
+$main-color: rgb(238, 92, 87);
+$sec-color: rgb(0, 0, 0);
+
+@media screen and (max-width: 320px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: space-between;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+            margin-left: 2.5rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: none;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+    
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: none;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 2.5rem;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: space-between;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+            margin-left: 2.5rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: none;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+    
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: none;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 2.5rem;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: space-between;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+            margin-left: 3rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: none;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+    
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: none;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 3rem;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: space-between;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+            margin-left: 3rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: none;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+
+                display: flex;
+
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: flex;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 3rem;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    height: 2.5rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    margin-right: 2rem;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: center;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+                margin-left: 3rem;
+                margin-right: 3rem;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: flex;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+
+                display: flex;
+
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: flex;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 3rem;
+                    display: none;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    height: 2.5rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: center;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+                margin-left: 8rem;
+                margin-right: 8rem;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: flex;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+
+                display: flex;
+                margin-right: 2rem;
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: flex;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 3rem;
+                    display: none;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    height: 2.5rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 4.5rem;
+        justify-content: center;
+        
+        h1 {
+            font-family: $font;
+            color: $main-color;
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+    
+    
+        nav {   
+            display: flex;
+            justify-content: center;
+            
+            .links {
+                display: flex;
+                align-items: center;
+                margin-left: 12rem;
+                margin-right: 12rem;
+    
+                a {
+                    text-decoration: none;
+                    font-family: $font;
+                    color: $sec-color;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                    justify-content: center;
+                    display: flex;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+    
+            .buttons {
+
+                display: flex;
+                margin-right: 2rem;
+
+                a {
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    font-family: $font;
+                    display: flex;
+                }
+
+                i {
+                    font-size: 2.5rem;
+                    margin-right: 3rem;
+                    display: none;
+                }
+    
+                #registrarse {
+                    background-color: transparent;
+                    font-size: 1rem;
+                    color: black;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+    
+                #iniciarsesion {
+                    background-color: $main-color;
+                    border-radius: 0.8rem;
+                    height: 2.5rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    color: white;
+                    transition: all ease-in-out 200ms;
+                    align-items: center;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(226, 63, 57);
+                        transition: all ease-in-out 200ms;
+                    }
+                }
+            }
+        }
+    }
+}
